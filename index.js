@@ -13,6 +13,12 @@ const loadCatalog = () => {
   return JSON.parse(jsonData).data;
 };
 
+const loadProductProps = () => {
+  const filePath = path.join(__dirname, "productDetails.json");
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(jsonData).data;
+};
+
 app.use(
   cors({
     origin: `http://localhost:${CLIENT_PORT}`,
@@ -40,9 +46,25 @@ app.get("/products/newarrivals", (req, res) => {
 app.get("/products/:id", (req, res) => {
   const itemId = parseInt(req.params.id, 10);
   const catalog = loadCatalog();
+  const productsDb = loadProductProps();
   const item = catalog.find((i) => i.id === itemId);
-  if (item) {
-    res.json(item);
+  const itemProps = productsDb.filter((i) => i.product_id === itemId);
+  if (item && itemProps.length > 0) {
+    // Масив для зберігання всіх властивостей і кількостей
+    let dimensions = [];
+
+    // Проходження по кожному об'єкту в itemProps
+    itemProps.forEach((item) => {
+      // Створення об'єкта для кожного елемента з властивостями та кількістю
+      let combinedItem = { quantity: item.quantity };
+      item.properties.forEach((prop) => {
+        combinedItem[prop.name] = prop.value;
+      });
+      dimensions.push(combinedItem);
+    });
+
+    // Додавання об'єднаних властивостей до item
+    res.json({ ...item, dimensions });
   } else {
     res.status(404).send("Item not found");
   }
