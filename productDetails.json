@@ -2,6 +2,356 @@
   "current_page": 1,
   "data": [
     {
+      "id": 683,
+      "product_id": 159,
+      "sku": "BK24SS092136",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 2,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "36"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:20:23.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 684,
+      "product_id": 159,
+      "sku": "BK24SS092137",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 2,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "37"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:22:10.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 685,
+      "product_id": 159,
+      "sku": "BK24SS092138",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 4,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "38"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:22:10.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 686,
+      "product_id": 159,
+      "sku": "BK24SS092139",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 2,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "39"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:22:10.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 687,
+      "product_id": 159,
+      "sku": "BK24SS092140",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 4,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "40"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:22:10.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 688,
+      "product_id": 159,
+      "sku": "BK24SS092141",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 3199,
+      "purchased_price": 1800,
+      "quantity": 2,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "41"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-17T11:22:10.000000Z",
+      "updated_at": "2024-08-19T21:01:34.000000Z"
+    },
+    {
+      "id": 653,
+      "product_id": 152,
+      "sku": "BK24SR0312S",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 2,
+      "in_reserve": 0,
+      "weight": null,
+      "length": 88,
+      "height": 70,
+      "width": 96,
+      "properties": [
+        {
+          "name": "size",
+          "value": "S"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:23:26.000000Z",
+      "updated_at": "2024-08-19T20:34:58.000000Z"
+    },
+    {
+      "id": 654,
+      "product_id": 152,
+      "sku": "BK24SR0312M",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 5,
+      "in_reserve": 0,
+      "weight": null,
+      "length": 92,
+      "height": 74,
+      "width": 100,
+      "properties": [
+        {
+          "name": "size",
+          "value": "M"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:24:40.000000Z",
+      "updated_at": "2024-08-19T20:34:58.000000Z"
+    },
+    {
+      "id": 655,
+      "product_id": 152,
+      "sku": "BK24SR0312L",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 7,
+      "in_reserve": 0,
+      "weight": null,
+      "length": 96,
+      "height": 78,
+      "width": 104,
+      "properties": [
+        {
+          "name": "size",
+          "value": "L"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:24:40.000000Z",
+      "updated_at": "2024-08-19T20:34:58.000000Z"
+    },
+    {
+      "id": 656,
+      "product_id": 152,
+      "sku": "BK24SR0312XL",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 5,
+      "in_reserve": 0,
+      "weight": null,
+      "length": 102,
+      "height": 84,
+      "width": 110,
+      "properties": [
+        {
+          "name": "size",
+          "value": "XL"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:24:40.000000Z",
+      "updated_at": "2024-08-19T20:34:58.000000Z"
+    },
+    {
+      "id": 649,
+      "product_id": 151,
+      "sku": "BK24SR0311S",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 1,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "Розмір",
+          "value": "S"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:18:39.000000Z",
+      "updated_at": "2024-08-19T01:25:32.000000Z"
+    },
+    {
+      "id": 650,
+      "product_id": 151,
+      "sku": "BK24SR0311M",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 0,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "Розмір",
+          "value": "M"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:20:41.000000Z",
+      "updated_at": "2024-08-19T01:25:32.000000Z"
+    },
+    {
+      "id": 651,
+      "product_id": 151,
+      "sku": "BK24SR0311L",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 8,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "Розмір",
+          "value": "L"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:20:41.000000Z",
+      "updated_at": "2024-08-19T01:25:32.000000Z"
+    },
+    {
+      "id": 652,
+      "product_id": 151,
+      "sku": "BK24SR0311XL",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 403,
+      "quantity": 5,
+      "in_reserve": 1,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "Розмір",
+          "value": "XL"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-15T06:20:41.000000Z",
+      "updated_at": "2024-08-19T01:25:32.000000Z"
+    },
+    {
       "id": 645,
       "product_id": 150,
       "sku": "BK24SR0402S",
@@ -116,6 +466,106 @@
       "is_archived": false,
       "created_at": "2024-05-15T06:14:35.000000Z",
       "updated_at": "2024-07-11T17:23:23.000000Z"
+    },
+    {
+      "id": 641,
+      "product_id": 149,
+      "sku": "BK24SR0401S",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 440,
+      "quantity": 1,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "S"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-14T19:53:24.000000Z",
+      "updated_at": "2024-08-19T20:19:31.000000Z"
+    },
+    {
+      "id": 642,
+      "product_id": 149,
+      "sku": "BK24SR0401M",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 440,
+      "quantity": -1,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "M"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-14T19:53:43.000000Z",
+      "updated_at": "2024-08-19T20:19:31.000000Z"
+    },
+    {
+      "id": 643,
+      "product_id": 149,
+      "sku": "BK24SR0401L",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 440,
+      "quantity": 8,
+      "in_reserve": 0,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "L"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-14T19:53:43.000000Z",
+      "updated_at": "2024-08-19T20:19:31.000000Z"
+    },
+    {
+      "id": 644,
+      "product_id": 149,
+      "sku": "BK24SR0401XL",
+      "barcode": null,
+      "thumbnail_url": null,
+      "price": 1299,
+      "purchased_price": 440,
+      "quantity": 5,
+      "in_reserve": 1,
+      "weight": null,
+      "length": null,
+      "height": null,
+      "width": null,
+      "properties": [
+        {
+          "name": "size",
+          "value": "XL"
+        }
+      ],
+      "is_default": false,
+      "is_archived": false,
+      "created_at": "2024-05-14T19:53:43.000000Z",
+      "updated_at": "2024-08-19T20:19:31.000000Z"
     }
   ],
   "first_page_url": "https://openapi.keycrm.app/v1/offers?limit=15&sort=id&filter%5Bproduct_id%5D=150&page=1",
