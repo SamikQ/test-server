@@ -42,6 +42,12 @@ app.get("/products/newarrivals", (req, res) => {
   res.json(newArrivals);
 });
 
+app.get("/products/bestsellers", (req, res) => {
+  const catalog = loadCatalog();
+  const bestsellers = catalog.slice(10, 20);
+  res.json(bestsellers);
+});
+
 // Маршрут для отримання конкретної позиції за її id
 app.get("/products/:id", (req, res) => {
   const itemId = parseInt(req.params.id, 10);
